@@ -1,3 +1,10 @@
-import React from "react"
+import React, { Component } from 'react';
+import Button from 'react-bootstrap/Button'
 
-export default () => <div>Hello world!</div>
+export default class Index extends Component {
+    render() {
+        return (
+            <Button>Hello</Button>
+        )
+    }
+}
