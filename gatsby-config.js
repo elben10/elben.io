@@ -6,6 +6,21 @@
 
 module.exports = {
   plugins: [
-    `gatsby-plugin-sass`
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Saira Extra Condensed`,
+            variants: [`500`, `700`]
+          },
+          {
+            family: `Muli`,
+            variants: [`400`, `400i`, `800`, `800i`]
+          }
+        ]
+      }
+    },
+    `gatsby-plugin-sass`,
   ]
 }

@@ -16,6 +16,7 @@
   "dependencies": {
     "bootstrap": "^4.4.1",
     "gatsby": "^2.19.43",
+    "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
     "gatsby-plugin-sass": "^2.1.31",
     "node-sass": "^4.13.1",
     "react": "^16.12.0",

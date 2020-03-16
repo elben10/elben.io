@@ -1,5 +1,7 @@
 @import "variables.scss";
-@import "global.scss";
+@import "mixins.scss";
+
 @import "navbar.scss";
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "global.scss";
