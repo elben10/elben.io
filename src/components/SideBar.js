@@ -14,12 +14,12 @@ export default class SideBar extends Component {
                         <Nav.Item>
                             <Nav.Link>
                                 Home
-                                </Nav.Link>
+                            </Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
                             <Nav.Link>
                                 Contact
-                                </Nav.Link>
+                            </Nav.Link>
                         </Nav.Item>
                     </Nav>
                 </Navbar.Collapse>
