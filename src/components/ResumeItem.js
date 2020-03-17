@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Nav, Navbar } from 'react-bootstrap'
 
 export default class ResumeItem extends Component {
     render() {
