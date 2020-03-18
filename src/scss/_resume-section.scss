@@ -2,3 +2,9 @@ section.resume-section {
     max-width: 100vw;
     padding-top: 7.5vh;
 }
+
+@media (min-width: 768px) {
+    section.resume-section {
+        min-height: 100vh;
+    }
+}
