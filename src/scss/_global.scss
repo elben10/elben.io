@@ -4,6 +4,13 @@ body {
   color: $gray-600;
 }
 
+@media (min-width: 992px) {
+  body {
+    padding-top: 0;
+    padding-left: $sidebar-base-width;
+  }
+}
+
 h1,
 h2,
 h3,
