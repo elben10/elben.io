@@ -8,7 +8,7 @@ export default class SideBar extends Component {
                 <Navbar.Brand>
                     <span className="d-block d-lg-none">Jakob Jul Elben</span>
                     <span className="d-none d-lg-block">
-                        <img className="rounded-circle img-profile mb-3" src="https://blackrockdigital.github.io/startbootstrap-resume/img/profile.jpg" />
+                        <img className="rounded-circle img-profile mb-3" src="https://media-exp1.licdn.com/dms/image/C4D03AQFsobrRzZ1FWA/profile-displayphoto-shrink_200_200/0?e=1590019200&v=beta&t=UEDEHMtDdIhqZcSdfj-58x6VLXl79L7Ov-l8mNSVJSg" />
                     </span>
                 </Navbar.Brand>
                 <Navbar.Toggle className="mr-2" />
