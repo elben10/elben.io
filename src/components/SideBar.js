@@ -7,6 +7,9 @@ export default class SideBar extends Component {
             <Navbar id="sideNav" className="navbar-dark bg-primary fixed-top" expand='lg'>
                 <Navbar.Brand>
                     <span className="d-block d-lg-none">Jakob Jul Elben</span>
+                    <span className="d-none d-lg-block">
+                        <img className="rounded-circle img-profile mb-3" src="https://blackrockdigital.github.io/startbootstrap-resume/img/profile.jpg" />
+                    </span>
                 </Navbar.Brand>
                 <Navbar.Toggle className="mr-2" />
                 <Navbar.Collapse>

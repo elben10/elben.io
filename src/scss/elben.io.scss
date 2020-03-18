@@ -1,8 +1,9 @@
 @import "variables.scss";
 @import "mixins.scss";
 
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
 @import "navbar.scss";
 @import "resume-section.scss";
 
-@import "../../node_modules/bootstrap/scss/bootstrap.scss";
 @import "global.scss";
