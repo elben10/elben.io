@@ -12,7 +12,7 @@ export default class Index extends Component {
             <Fragment>
                 <SideBar />
                 <Container fluid>
-                    <ResumeSection>
+                    <ResumeSection id="Home">
                         <h1 className="mb-0">Jakob Jul <span className="text-primary">Elben</span></h1>
                         <div className="sub-heading mb-5">Slotsherrensvej 151 st.mf. · 2720 Vanløse · Copenhagen</div>
                         <div className="social-icons">
@@ -24,7 +24,7 @@ export default class Index extends Component {
                             </a>
                         </div>
                     </ResumeSection>
-                    <ResumeSection>
+                    <ResumeSection id="Experience">
                         <h2 className="mb-5">Experience</h2>
                         <ResumeItem title="Datamaga" subtitle="Consultant" date="March 2019 - Present">
                             What is going on
