@@ -16,17 +16,22 @@ export default class SideBar extends Component {
                 <Navbar.Toggle className="mr-2" />
                 <Navbar.Collapse>
                     <Nav>
-                        <Scrollspy className="d-flex w-100 flex-column align-items-center" items={ ['Home', 'Experience'] } currentClassName="active" componentTag="div">
-                        <Nav.Item>
-                            <Nav.Link href="#Home" active={false}>
-                                Home
-                            </Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                            <Nav.Link href="#Experience" active={false}>
-                                Experience
-                            </Nav.Link>
-                        </Nav.Item>
+                        <Scrollspy className="d-flex w-100 flex-column align-items-center" items={ ['Home', 'Experience', "Education"] } currentClassName="active" componentTag="div">
+                            <Nav.Item>
+                                <Nav.Link href="#Home" active={false}>
+                                    Home
+                                </Nav.Link>
+                            </Nav.Item>
+                            <Nav.Item>
+                                <Nav.Link href="#Experience" active={false}>
+                                    Experience
+                                </Nav.Link>
+                            </Nav.Item>
+                            <Nav.Item>
+                                <Nav.Link href="#Education" active={false}>
+                                    Education
+                                </Nav.Link>
+                            </Nav.Item>
                         </Scrollspy>
                     </Nav>
                 </Navbar.Collapse>

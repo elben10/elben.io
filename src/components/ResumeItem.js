@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 
 export default class ResumeItem extends Component {
     render() {
-        console.log(this.props)
         return (
             <div className="d-flex flex-column flex-md-row justify-content-between">
                 <div>
@@ -10,7 +9,7 @@ export default class ResumeItem extends Component {
                 <div className="sub-heading">{this.props.subtitle}</div>
                 <p>{this.props.children}</p>
                 </div>
-                <div>
+                <div className="date-item text-md-right mt-md-3">
                     <span className="text-primary">
                         {this.props.date}
                     </span>
