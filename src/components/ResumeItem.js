@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 
 export default class ResumeItem extends Component {
     render() {
-        console.log(this.props)
         return (
             <div className="d-flex flex-column flex-md-row justify-content-between">
                 <div>
