@@ -10,7 +10,7 @@ export default class ResumeItem extends Component {
                 <div className="sub-heading">{this.props.subtitle}</div>
                 <p>{this.props.children}</p>
                 </div>
-                <div>
+                <div className="date-item text-md-right">
                     <span className="text-primary">
                         {this.props.date}
                     </span>
